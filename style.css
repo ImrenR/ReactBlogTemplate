@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -17,107 +17,113 @@ header .template {
   padding: 1rem;
   margin: 1rem;
   width: 250px;
- 
 }
-header .logo{
+header .logo {
   width: 50px;
-
 }
 
-header p{
+header p {
   padding: 1.5rem;
   font-style: bold;
   font-weight: 700;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
 .hero {
-   /*border: 2px solid rgb(149, 234, 13); */
-   display: flex;
-   justify-content: space-between;
-   list-style: none;
-   padding: 1rem;
-   margin: 2rem;
-   gap: 20px;
- 
+  /*border: 2px solid rgb(149, 234, 13); */
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 1rem;
+  margin: 2rem;
+  gap: 20px;
 }
 
-.hero a{
-    text-decoration: none;
-    color: rgb(115, 124, 133);
-    
+.hero a {
+  text-decoration: none;
+  color: rgb(115, 124, 133);
 }
 
 section {
-text-align: center;
-}
-
-section .explore{
-font-style: bold;
-font-weight: 900;
-font-size: larger;
-font-family:sans-serif;
-letter-spacing: 0.05rem;
-margin-bottom: 0.6rem;
-}
-
-section .ideas{
-color: rgb(100, 106, 113);
-font-family:sans-serif;
-letter-spacing: 0.06rem;
-font-size: small;
-}
-
-.btn{
-  margin-top: 2rem;
   text-align: center;
-  
+}
+
+section .explore {
+  font-style: bold;
+  font-weight: 900;
+  font-size: larger;
+  font-family: sans-serif;
+  letter-spacing: 0.05rem;
+  margin-bottom: 0.6rem;
+}
+
+section .ideas {
+  color: rgb(100, 106, 113);
+  font-family: sans-serif;
+  letter-spacing: 0.06rem;
+  font-size: small;
 }
 
 main {
-  border: 2px solid red;
+  /*border: 2px solid red; */
   width: 70%;
   margin: 20px auto;
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 15px;
 }
 .foto {
-width: 200px;
-height: 180px;
+  width: 200px;
+  height: 180px;
 }
 
 .avatar {
-width:30px ;
-border-radius: 50%;
+  width: 30px;
+  border-radius: 50%;
 }
 .box {
-border: 2px solid green;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-padding: 15px;
-width: 300px;
-height: 400px;
-margin: auto;
-
+  /*border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px;
+  width: 300px;
+  height: 400px;
+  margin: auto;
 }
 
-.box p{
+.box p {
   /*border: 2px solid red; */
   max-height: 300px;
   max-width: 200px;
   text-align: justify;
   overflow: hidden;
   color: gray;
-  
 }
 .box button {
   /*border: 2px solid red; */
   margin-top: 1rem;
- height: 100px;
-  width: 120px;
+  height: 50px;
+  width: 100px;
   border: none;
- color: gray;
+  color: gray;
+  font-size: x-small;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.btn button {
+  height: 30px;
+  width: 90px;
+  font-size: x-small;
+  background-color: white;
+  margin-top: 2rem;
+  border: none;
+  border-style: groove;
+  color: gray;
+  
+  
 }
