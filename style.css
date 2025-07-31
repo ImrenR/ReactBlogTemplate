@@ -74,3 +74,10 @@ font-size: small;
   text-align: center;
   
 }
+
+main {
+  width: 40px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 15px;
+}
