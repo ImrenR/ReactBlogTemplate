@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  /*border: 2px solid red;*/
+  display: flex;
+  justify-content: space-between;
+}
+
+header .template {
+  /* border: 2px solid rgb(78, 26, 221); */
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  margin: 1rem;
+  width: 250px;
+ 
+}
+header .logo{
+  width: 50px;
+
+}
+
+header p{
+  padding: 1.5rem;
+  font-style: bold;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.hero {
+   /*border: 2px solid rgb(149, 234, 13); */
+   display: flex;
+   justify-content: space-between;
+   list-style: none;
+   padding: 1rem;
+   margin: 2rem;
+   gap: 20px;
+ 
+}
+
+.hero a{
+    text-decoration: none;
+    color: rgb(131, 141, 151);
+    
+}
