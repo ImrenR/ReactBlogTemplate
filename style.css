@@ -76,8 +76,24 @@ font-size: small;
 }
 
 main {
-  width: 40px;
+  border: 2px solid red;
+  width: 70%;
+  margin: 20px auto;
   display: grid;
   grid-template-columns: repeat(3,1fr);
   gap: 15px;
+}
+.foto {
+width: 150px;
+height: 150px;
+}
+
+.avatar {
+width:30px ;
+border-radius: 50%;
+}
+.box {
+border: 2px solid green;
+display: grid;
+
 }
