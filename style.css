@@ -45,6 +45,26 @@ header p{
 
 .hero a{
     text-decoration: none;
-    color: rgb(131, 141, 151);
+    color: rgb(115, 124, 133);
     
+}
+
+section {
+text-align: center;
+}
+
+section .explore{
+font-style: bold;
+font-weight: 900;
+font-size: larger;
+font-family:sans-serif;
+letter-spacing: 0.05rem;
+margin-bottom: 0.6rem;
+}
+
+section .ideas{
+color: rgb(100, 106, 113);
+font-family:sans-serif;
+letter-spacing: 0.06rem;
+font-size: small;
 }
