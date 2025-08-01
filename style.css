@@ -8,25 +8,26 @@ header {
   /*border: 2px solid red;*/
   display: flex;
   justify-content: space-between;
-}
 
-header .template {
-  /* border: 2px solid rgb(78, 26, 221); */
-  display: flex;
-  align-items: center;
-  padding: 1rem;
-  margin: 1rem;
-  width: 250px;
-}
-header .logo {
-  width: 50px;
-}
+  & .template {
+    /* border: 2px solid rgb(78, 26, 221); */
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+    width: 250px;
+  }
+  & .logo {
+    width: 50px;
+  }
 
-header p {
-  padding: 1.5rem;
-  font-style: bold;
-  font-weight: 700;
-  font-family: Arial, Helvetica, sans-serif;
+  & p {
+    padding: 1.5rem;
+    font-style: bold;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
 }
 
 .hero {
@@ -109,11 +110,10 @@ main {
   color: gray;
   font-size: x-small;
 }
-.btn{
+.btn {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 .btn button {
   height: 30px;
@@ -124,6 +124,4 @@ main {
   border: none;
   border-style: groove;
   color: gray;
-  
-  
 }
